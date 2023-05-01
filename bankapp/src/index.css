@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: aliceblue;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.Logo {
+  font-size: xx-large;
+  font-weight: bold;
+  color: cornflowerblue;
+  padding: 1rem;
+}
+
+.Nav {
+  box-shadow: 2px 2px 3px gray;
+  padding: 1rem;
+  background-color: whitesmoke;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5rem;
+  font-size: xx-large;
+  font-family: PT sans-serif;
+  padding: 1rem;
+}
+
+button {
+  border-style: hidden;
+  box-shadow: 2px 2px 3px gray;
+  background-color: cornflowerblue;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  width: fit-content;
+  align-self: center;
+}
+
+.Footer {
+  text-align: center;
+  position: relative;
+  top: 600rem;
+  padding: 1rem;
+  box-shadow: -1px -1px 3px gray;
+  background-color: white;
+  font-weight: bold;
+  color: lightgrey;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  box-shadow: -1px 3px 3px 3px darkgray;
+  padding: 1rem;
+  width: 20rem;
+  height: fit-content;
+  text-align: center;
+  margin: 2rem;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
