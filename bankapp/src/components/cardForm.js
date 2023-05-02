@@ -2,21 +2,8 @@
 import React, { useState } from 'react';
 
 function CardForm () {
-    const [cards, setCards] = useState( [
-        {
-          id: 1,
-          name:"Israa Othman",
-          accountnumber: "123456",
-          accountType: "Savings"
-        },
-        {
-          id: 2,
-          name:"Ahmad Zahran",
-          accountunmber: "987654",
-          accountType: "Student accounts"
-        }
-]);
-    const [id, setId] = useState(3);
+    const [cards, setCards] = useState( []);
+    const [id, setId] = useState(1);
 
     function handleSubmit(event) {
         event.preventDefault();
@@ -30,7 +17,6 @@ function CardForm () {
 
     function handleDelete(id) {
         const updatedCards = cards.filter((card) => card.id !== id);
-        setId(id - 1);
         setCards(updatedCards);
         
 
